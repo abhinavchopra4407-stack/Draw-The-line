@@ -1,0 +1,32 @@
+export const POWER_UP_CONFIGS = {
+  magnet: {
+    type: 'magnet',
+    name: 'MAGNET',
+    symbol: '🧲',
+    badgeLabel: 'MAGNET',
+    color: '#EF4444',
+    glowColor: '#F87171',
+    description: 'Pulls nearby coins towards the car',
+    duration: 6.0,
+  },
+  shield: {
+    type: 'shield',
+    name: 'SHIELD',
+    symbol: '🛡️',
+    badgeLabel: 'SHIELD (1 HIT)',
+    color: '#06B6D4',
+    glowColor: '#38BDF8',
+    description: 'Protects against 1 collision',
+    duration: 12.0,
+  },
+  boost: {
+    type: 'boost',
+    name: 'SPEED BOOST',
+    symbol: '⚡',
+    badgeLabel: 'SPEED BOOST',
+    color: '#F59E0B',
+    glowColor: '#FBBF24',
+    description: 'Increases driving speed and acceleration',
+    duration: 3.5,
+  },
+};
